@@ -94,9 +94,7 @@
   
   }
   
-  /-----------------------------------\
-    #RESET
-  \-----------------------------------/
+ /* RESET */
   
   *, *::before, *::after {
     margin: 0;
@@ -139,10 +137,7 @@
   
   
   
-  
-  /-----------------------------------\
-    #REUSED STYLE
-  \-----------------------------------/
+  /* REUSED STYLE */
   
   .sidebar,
   article {
@@ -271,9 +266,7 @@
     z-index: -1;
   }
   
-  /-----------------------------------\
-    #MAIN
-  \-----------------------------------/
+ /* MAIN */
   
   main {
     margin: 15px 12px;
@@ -281,9 +274,7 @@
     min-width: 259px;
   }
   
-  /-----------------------------------\
-    #SIDEBAR
-  \-----------------------------------/
+ /* SIDE-BAR */
   
   .sidebar {
     margin-bottom: 15px;
@@ -416,11 +407,8 @@
   
   
   .social-item .social-link:hover { color: var(--light-gray); }
-  
-  /-----------------------------------\
-    #NAVBAR
-  \-----------------------------------/
-  
+ 
+  /* NAVBAR */
   .navbar {
     position: fixed;
     bottom: 0;
@@ -454,10 +442,7 @@
   
   .navbar-link.active { color: var(--orange-yellow-crayola); }
   
-  
-  /-----------------------------------\
-    #ABOUT
-  \-----------------------------------/
+   /* ABOUT */
   
   .about .article-title { margin-bottom: 15px; }
   
@@ -713,9 +698,7 @@
   
   .clients-item img:hover { filter: grayscale(0); }
   
-  /-----------------------------------\
-    #RESUME
-  \-----------------------------------/
+ /* RESUME */
   
   .article-title { margin-bottom: 30px; }
   
@@ -820,10 +803,7 @@
     border-radius: inherit;
   }
   
-  /-----------------------------------\
-    #PORTFOLIO
-  \-----------------------------------/
-  
+  /* PORTFOLIO */
   .filter-list { display: none; }
   
   .filter-select-box {
@@ -975,9 +955,7 @@
     font-weight: var(--fw-300);
   }
   
-  /-----------------------------------\
-    #BLOG
-  \-----------------------------------/
+  /* BLOG */
   
   .blog-posts { margin-bottom: 10px; }
   
@@ -1058,9 +1036,7 @@
     font-weight: var(--fw-300);
     line-height: 1.6;
   }
-  /-----------------------------------\
-    #CONTACT
-  \-----------------------------------/
+ /* CONTACT */
   
   .mapbox {
     position: relative;
@@ -1161,9 +1137,7 @@
   
   .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
   
-  /-----------------------------------\
-    #RESPONSIVE
-  \-----------------------------------/
+ /* RESPONSIVE */
   
   /**
    * responsive larger than 450px screen
