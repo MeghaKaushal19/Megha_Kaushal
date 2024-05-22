@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Megha Kaushal</title>
-    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.ico">
     
     <!--
     - favicon
@@ -103,7 +103,19 @@
                 <ion-icon name="calendar-outline"></ion-icon>
               </div>
 
-             <div class="contact-info">
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">February 19, 2004</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
                 <p class="contact-title">Location</p>
 
                 <address>Mohali, Punjab, India</address>
@@ -128,12 +140,19 @@
                 href="https://github.com/meghakaushal19
                 target="_blank"
                 class="social-link"
-             <a/>
+              >
                 <ion-icon name="logo-github"></ion-icon>
               </a>
             </li>
 
-            
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
       <div class="main-content">
         <!--
         - #NAVBAR
@@ -146,13 +165,17 @@
             </li>
 
             <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Education</button>
+              <button class="navbar-link" data-nav-link>Resume</button>
             </li>
 
             <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Projects</button>
+              <button class="navbar-link" data-nav-link>Portfolio</button>
             </li>
-            
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
             <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Contact</button>
             </li>
@@ -246,7 +269,7 @@
               <li class="service-item">
                 <div class="service-icon-box">
                   <img
-                    src="icon-photo.svg"
+                    src="./assets/images/icon-photo.svg"
                     alt="camera icon"
                     width="40"
                   />
@@ -277,14 +300,14 @@
               <div class="modal-img-wrapper">
                 <figure class="modal-avatar-box">
                   <img
-                    src="avatar-1.png"
-                    alt="Megha Kaushal"
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
                     width="80"
                     data-modal-img
                   />
                 </figure>
 
-                <img src="icon-quote.svg" alt="quote icon" />
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
               </div>
 
               <div class="modal-content">
@@ -314,11 +337,11 @@
         </article>
 
         <!--
-        - #Education
+        - #RESUME
       -->
-      <article class="education"  data-page="education">
+      <article class="resume"  data-page="resume">
         <header>
-          <h2 class="h2 article-title">Education</h2>
+          <h2 class="h2 article-title">Resume</h2>
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -365,7 +388,7 @@
               <p class="timeline-text">
                 <b>Himalayan Public School</b>
                 <br /><i>Patna, Bihar</i>
-            
+                <br /><i>Percentage- 74%</i>
               </p>
             </li>
 
@@ -377,7 +400,7 @@
               <p class="timeline-text">
                 <b>St Mary's School</b>
                 <br /><i>Barbil, Odisha</i>
-
+                <br /><i>Percentage- 87%</i>
               </p>
             </li>
           </ol>
@@ -438,12 +461,12 @@
 
         
         <!--
-        - #Projects
+        - #PORTFOLIO
       -->
 
-        <article class="projects" data-page="projects">
+        <article class="portfolio" data-page="portfolio">
           <header>
-            <h2 class="h2 article-title">Projects</h2>
+            <h2 class="h2 article-title">Portfolio</h2>
           </header>
 
           <section class="projects">
@@ -716,6 +739,203 @@
           
         </article>
         
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
         <!--
         - #CONTACT
       -->
@@ -781,7 +1001,7 @@
     <!--
     - custom js link
   -->
-    <script src="index.js"></script>
+    <script src="./assets/js/script.js"></script>
 
     <!--
     - ionicon link
